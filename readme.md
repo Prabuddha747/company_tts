@@ -89,18 +89,6 @@ This web application extracts key details from news articles related to a given 
 - `GET /api/cached/{company_name}`: Get cached analysis results
 - `POST /api/cache`: Cache analysis results
 
-## Deployment
-
-The application is deployed on Hugging Face Spaces and can be accessed at:
-[https://huggingface.co/spaces/your-username/news-sentiment-tts](https://huggingface.co/spaces/your-username/news-sentiment-tts)
-
-### Deploying to Hugging Face Spaces
-
-1. Create a Hugging Face account if you don't have one.
-2. Create a new Space and select Streamlit as the SDK.
-3. Upload the code to the Space repository.
-4. Edit the Space configuration to include both FastAPI and Streamlit.
-
 ## Assumptions & Limitations
 
 - The application focuses on non-JS websites that can be scraped with BeautifulSoup.
